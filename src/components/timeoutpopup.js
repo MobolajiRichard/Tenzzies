@@ -35,7 +35,7 @@ export default function TimeOutPopup ({restart, gameLost, setDie}){
                     <h1 className="popup-header-text">Time Up!</h1>
                     <img className="popup-gif" src="/dice false images/stopwatch.gif" alt=""/>
                     <div className="popup-main">
-                        <h2 className="popup-change">Change Difficulty?</h2>
+                        <h2 className="popup-change">Change Difficulty</h2>
                         <hr width="35%"/>
                         <button onClick={easy} className="popup-easy-button">Easy</button>
                         <button onClick={medium} className="popup-medium-button">Medium</button>
