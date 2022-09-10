@@ -1,0 +1,82 @@
+.welcome-page{
+    background-color: antiquewhite;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    border-radius: 10px;
+    justify-content: space-around;
+
+}
+
+.footer-icon{
+    width: 2em;
+    height:2em;
+}
+
+footer{
+    margin-top: 2em;
+}
+
+.play{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.how-to-play{
+    margin-bottom: 0;
+    color: #0B2434;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+
+ul {
+    list-style-type:none;
+}
+
+ul li:before {
+
+    content: '';
+  
+    display: inline-block;
+  
+    height: 0.8em;
+  
+    width: 0.8em;
+  
+    background-size: 0.8em;
+  
+    background-image: url('./components/icons8-dice-48.png');
+  
+    background-repeat: no-repeat;
+  
+    margin-right: 5px;
+
+    
+  
+  }
+
+  li{
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  @media screen and (max-width:500px) {
+
+    h1{
+        font-size: 1.3em;
+    }
+    h3{
+        font-size: 1em;
+    }
+    li{
+        font-size: 80%;
+      }
+      footer{
+        margin-top: 1em;
+    }
+  
+  }
